@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* Color styles */
+--safety--blue: rgba(2, 71, 137, 1);
+--han--blue: rgba(59, 111, 198, 1);
+--adamantine--blue: rgba(72, 166, 255, 1);
+
+}
+
+
+/* GLOBAL STLYES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: #0E0E0E;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-family: "Exo", sans-serif;
+    font-size: 98px;
+    font-weight: 800;
+    letter-spacing: 16px;
+}
+
+h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 86px;
+    max-width: 680px;
+    margin: auto;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+}
+
+.navbar img {
+    height: 76px;
+    position: relative;
+    top: 4px;
+}
