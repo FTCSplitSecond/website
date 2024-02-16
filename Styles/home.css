@@ -1,21 +1,20 @@
 
 section.hero {
-    height: 90vh;
-    position: sticky;
-    padding-top: 86px;
-    top: 0px;
+    height: 96dvh;
     display: flex;
 }
 
 .hero .robot-img {
-    width: 68vh;
+    height: 40%;
+    max-height: 500px;
     filter: drop-shadow(0px 0px 90px rgba(2, 86, 137, 0.4));
     position: absolute;
-    top: 42%;
+    top: calc(50% - 90px);
     left: 50%;
-    transform: translate(-50%, -42%);
+    transform: translate(-50%, -50%);
     transition: width 0.5s, height 0.5s;
     margin-top: 86px;
+    transition: transform 0.4s ease;
 }
 
 .hero .text {
@@ -25,8 +24,18 @@ section.hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 78%;
-    transition: height 0.25s;
+    height: 60%;
+    max-height: 600px;
+    align-self: center;
+}
+
+.hero h1 {
+  font-size: min(14vh, 98px);
+  letter-spacing: min(2.4vh, 16px);
+}
+
+.hero h2 {
+  font-size: min(8vh, 56px);
 }
 
 .hero #circle-1 {
@@ -39,6 +48,7 @@ section.hero {
     -ms-animation: rotating 30s linear infinite;
     -o-animation: rotating 30s linear infinite;
     animation: rotating 30s linear infinite;
+    opacity: 0.4;
 }
 
 .hero #circle-2 {
@@ -51,6 +61,7 @@ section.hero {
     -ms-animation: rotating 45s linear infinite;
     -o-animation: rotating 45s linear infinite;
     animation: rotating 45s linear infinite;
+    opacity: 0.4;
 }
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {

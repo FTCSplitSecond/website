@@ -1,5 +1,4 @@
 <svg width="1257" height="1257" viewBox="0 0 1257 1257" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.2">
 <circle opacity="0.3" cx="377.473" cy="377.473" r="375.33" transform="matrix(-0.979341 0.202216 0.202216 0.979341 921.857 182.493)" stroke="#A5A5A5" stroke-width="4.28481"/>
 <circle opacity="0.8" cx="83.9597" cy="83.9597" r="83.4987" transform="matrix(-0.979341 0.202216 0.202216 0.979341 693.755 529.294)" stroke="#CACACA" stroke-width="0.922012"/>
 <circle opacity="0.7" cx="126.581" cy="126.581" r="126.12" transform="matrix(-0.979341 0.202216 0.202216 0.979341 726.885 478.935)" stroke="#CACACA" stroke-width="0.922012" stroke-linecap="square" stroke-dasharray="36.88 9.22"/>
@@ -13,5 +12,4 @@
 <circle opacity="0.2" cx="430.202" cy="430.202" r="428.417" transform="matrix(-0.979341 0.202216 0.202216 0.979341 962.821 120.192)" stroke="#206FBA" stroke-width="3.57068"/>
 <circle opacity="0.2" cx="479.677" cy="479.677" r="478.963" transform="matrix(-0.979341 0.202216 0.202216 0.979341 1001.27 61.7347)" stroke="#206FBA" stroke-width="1.42827"/>
 <circle opacity="0.2" cx="531.925" cy="531.925" r="531.211" transform="matrix(-0.979341 0.202216 0.202216 0.979341 1041.87 0)" stroke="#206FBA" stroke-width="1.42827"/>
-</g>
 </svg>
