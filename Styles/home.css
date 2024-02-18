@@ -5,16 +5,22 @@ section.hero {
 }
 
 .hero .robot-img {
-    height: 40%;
-    max-height: 500px;
-    filter: drop-shadow(0px 0px 90px rgba(2, 86, 137, 0.4));
+    height: 60%;
+    max-height: 640px;
+    filter: drop-shadow(0px 0px 120px rgba(2, 86, 137, 0.4));
     position: absolute;
-    top: calc(50% - 90px);
+    top: calc(50% - 85px);
     left: 50%;
     transform: translate(-50%, -50%);
     transition: width 0.5s, height 0.5s;
     margin-top: 86px;
-    transition: transform 0.4s ease;
+    transition: scale 0.2s ease;
+    transform-origin: left top;
+    scale: 1.1;
+}
+
+.hero .robot-img:hover {
+  cursor: pointer;
 }
 
 .hero .text {
